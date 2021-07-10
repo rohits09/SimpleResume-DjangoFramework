@@ -1,0 +1,60 @@
+/* Google-font */
+.googlefont{
+
+    font-family: 'Satisfy', cursive;
+}
+html,body{
+
+    height: 100%;
+}
+.container-fluid{
+
+    min-height: 100%;
+}
+
+/* Services icon color */
+.i-color{
+    color: chartreuse;
+}
+
+/* Services captions or subtitles color */
+.ss-color{
+
+    color: lightblue;
+}
+
+/* Contact Form */
+.location-color{
+    color: #5b5bce;
+}
+.mobile-color{
+
+    color: rgb(192, 37, 37);
+}
+.email-color{
+
+    color: lightblue;
+}
+
+.instagram{
+
+    margin-left: 2px;
+    color: rgb(238, 55, 23);
+}
+/* Side Bar Hover nad ACtive */
+a.nav-link{
+
+    color: whitesmoke;
+}
+a.nav-link:hover{
+
+    color: black;
+    background-color: rgb(237, 240, 63);
+    
+}
+a.nav-link.active{
+
+    color: black;
+    background-color: rgb(252, 173, 5);
+    font-weight: bold;
+}

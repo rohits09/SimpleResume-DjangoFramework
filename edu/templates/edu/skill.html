@@ -1,0 +1,83 @@
+{% extends 'core/base.html' %}
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">SKILLS</h1>
+        {% comment %} 1st Row {% endcomment %}
+        {% comment %}we can create 4 rows for 2 columns and offset sm-2 for space b/w 2 columns
+         or we can make 1 row and multiple columns in it... This columnsget autoplaced one by one.{% endcomment %}
+        <div class="row text-white">
+            <div class="col-sm-5">              {% comment %} 1st Row 1st Column {% endcomment %}
+                <h3 class="mt-5">PYTHON</h3>
+                <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:100%" area-valuenow="100" area-valuemin="0"
+                        area-valuemax="100">100%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 offset-sm-2">   {% comment %} 1st Row 2nd Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">HTML/CSS</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:90%" area-valuenow="90" area-valuemin="0"
+                        area-valuemax="100">90%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">   {% comment %} 1st Row 3rd Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">Django</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:92%" area-valuenow="92" area-valuemin="0"
+                        area-valuemax="100">92%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 offset-sm-2">   {% comment %} 1st Row 4th Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">Data Analysis/Modeling</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:87%" area-valuenow="87" area-valuemin="0"
+                        area-valuemax="100">87%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">   {% comment %} 1st Row 5th Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">Machine Learning</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:85%" area-valuenow="85" area-valuemin="0"
+                        area-valuemax="100">85%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 offset-sm-2">   {% comment %} 1st Row 6th Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">Databases</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:80%" area-valuenow="80" area-valuemin="0"
+                        area-valuemax="100">80%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 ">   {% comment %} 1st Row 7th Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">Flask</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:82%" area-valuenow="82" area-valuemin="0"
+                        area-valuemax="100">82%
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 offset-sm-2">   {% comment %} 1st Row 8th Column with offset 2 colmn space {% endcomment %}
+                <h3 class="mt-5">C/C++</h3>  
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width:95%" area-valuenow="95" area-valuemin="0"
+                        area-valuemax="100">95%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

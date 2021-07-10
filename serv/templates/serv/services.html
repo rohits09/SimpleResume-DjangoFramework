@@ -1,0 +1,76 @@
+{% extends 'core/base.html' %}
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">SERVICES</h1>
+            {% comment%} 1st Row {% endcomment %}
+            <div class="row text-center mb-5 text-white">       
+                <div class="col-sm-4 ">                         {% comment%} 1st row 1st Column {% endcomment %}
+                    <i class="fas fa-cloud-upload-alt fa-2x text-primary"></i>
+                    <h3>Cloud Compute</h3>
+                    <p class="ss-color">I maintain servers for database storage,
+                        model training, and model deployment
+                    </p>
+                </div>
+                <div class="col-sm-4 ">                          {% comment%} 1st row 2nd Column {% endcomment %}
+                    <i class="fas fa-chalkboard-teacher fa-2x text-success"></i>
+                    <h3>NLP</h3>
+                    <p class="ss-color">I have worked with researchers to apply NLP techniques to 
+                            make sense of the motivations behind human interactions.
+                    </p>
+                </div>
+                <div class="col-sm-4 ">                         {% comment%} 1st row 3rd Column {% endcomment %}
+                    <i class="fas fa-graduation-cap fa-2x text-danger"></i>
+                    <h3>Machine Learning</h3>
+                    <p class="ss-color">Machine learning is more than an API call to scikit-learn.
+                         I love the math and theory as well as the implementation.
+                    </p>
+                </div>
+            </div>
+            {% comment %} 2nd Row {% endcomment %}
+            <div class="row text-center mb-5 text-white">       
+                <div class="col-sm-4 ">                         {% comment%} 2nd row 1st Column {% endcomment %}
+                    <i class="fas fa-layer-group fa-2x text-info"></i>
+                    <h3>Paralle Computing</h3>
+                    <p class="ss-color">I regularly extract data from Hadoop databases using the HIVE framework
+                    </p>
+                </div>
+                <div class="col-sm-4 ">                          {% comment%} 2nd row 2nd Column {% endcomment %}
+                    <i class="fas fa-shipping-fast fa-2x text-success"></i>
+                    <h3>Model Deployment</h3>
+                    <p class="ss-color">I implement machine learning models in real world production systems using REST APIs.
+                    </p>
+                </div>
+                <div class="col-sm-4 ">                         {% comment%} 2nd row 3rd Column {% endcomment %}
+                    <i class="far fa-chart-bar fa-2x text-danger"></i>
+                    <h3>Data Analytics</h3>
+                    <p class="ss-color">I love telling a story. Making a beautiful and compelling presentation is one of my favorite skills.
+                    </p>
+                </div>
+            </div>
+            {% comment %} 3rd Row {% endcomment %}
+            <div class="row text-center mb-5 text-white">    
+                <div class="col-sm-4 ">                         {% comment%} 3rd row 1st Column {% endcomment %}
+                    <i class="fas fa-laptop-code fa-2x text-primary"></i>
+                    <h3>Back-end web developer</h3>
+                    <p class="ss-color">Handles the 'behind-the-scenes' functionality of web applications 
+                        and powers the web application itself.
+                    </p>
+                </div>
+                <div class="col-sm-4 ">                          {% comment%} 3rd row 2nd Column {% endcomment %}
+                    <i class="fab fa-html5 fa-2x text-success"></i>
+                    <h3>Front-end web developer</h3>
+                    <p class="ss-color">As a web developer, I help to design and create the 
+                        perfect website for starters and freelancers. The website is optimized for 
+                        desktop and smartphone.
+                    </p>
+                </div>
+                <div class="col-sm-4 ">                         {% comment%} 3rd row 3rd Column {% endcomment %}
+                    <i class="fas fa-headset fa-2x text-danger"></i>
+                    <h3>Support</h3>
+                    <p class="ss-color">Providing a back and front end Support
+                        to overcome obstacles.
+                    </p>
+                </div>
+            </div>
+    </div>
+{% endblock content %}

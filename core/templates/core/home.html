@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-4">
+        <div class="text-center">
+            <img src={% static 'core/images/rohit.jpg' %} alt="ProfilePic" 
+            class="img-thumbnail mt-5" width="250px" height="150px">
+        </div>
+        <div class="mt-5 text-white mx-5">
+            <h1 class="googlefont font-weight-bold">Hello,</h1>
+            <div class="text-justify px-4" style="line-height:2rem;">
+                <p style="text-indent:100px;">
+                    I'am <b class="text-warning">Rohit Sonwane</b>. A Data Scientist with newly attained skills, an extreme intellectual curiosity,
+                    and the ability to mine hidden treasure sited within enormous sets of structured, semi-structured
+                    and unstruxtured data and ability to leverage a substanial dose of mathematics and applied 
+                    statistics with visualization and a strong sense of exploration. <br>
+                    A few interesting things about me. I love to read science fiction (my favorite is Frank Herbert's Dune). 
+                    I am also an avid gamer. I love to play competitive strategy games and first-person shooters. Lastly, 
+                    I love learning. Every day I push myself to learn something new, whether that be about machine learning, 
+                    software engineering, or miscellaneous facts about the universe.
+                    <br>My goal is to optimize world processes by using data. I'm excited about new challenges as a data scientist.
+                </p>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+        </div>
+    </div>
+{% endblock content %}
